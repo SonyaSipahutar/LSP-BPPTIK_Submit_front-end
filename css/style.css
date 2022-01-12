@@ -1,0 +1,156 @@
+/*import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    position: absolute;
+}
+nav img, #imgFooter{
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+}
+#navbarNav .navbar-nav .nav-item .nav-link{
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-left: 2em;
+    color: #0E243A;
+    border: 1px solid transparent;
+    padding-right: 30px;
+    text-align: center;
+}
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    background-color: transparent;
+    border: 1px solid #0E243A;
+    border-radius: 10px;
+}
+.head{
+    padding-top: 140px;
+}
+.judul{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+}
+.ket{
+    text-align: left;
+    font-weight: 400;
+}
+#tombol{
+    float: left;
+    border-radius: 30px;
+    font-size: 13px;
+    padding:10px 40px 10px 40px;
+    background-color: #458FF6;
+}
+#it{
+    width: 400px;
+}
+#subjudul{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+#garis{
+    position: absolute;
+    width: 56px;
+    height: 4px;
+    background: #000000;
+    border-radius: 5px;
+    left:  440px;
+    top: 40px;
+}
+#garis2{
+    position: absolute;
+    width: 56px;
+    height: 4px;
+    background: #000000;
+    border-radius: 5px;
+    left: 470px;
+    margin-top:40px ;
+}
+.card{
+    box-shadow: 0 1px 2px 0 #0E243A;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin: 20px;
+}
+
+.card:hover{
+    box-shadow: none;
+}
+
+.card .card-img-top{
+    width: 14%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+#tombol2{
+    margin-top:50px ;
+    border-radius: 30px;
+    font-size: 13px;
+    padding:10px 40px 10px 40px;
+}
+section{
+    padding-top: 50px;
+}
+.testimoni{
+    margin-top: 30px;
+}
+.container{
+    padding-bottom: 30px;
+}
+#logo img{
+    width: 200px;
+    height: 200px;
+    min-width: 60px;
+    min-height: 60px;
+}
+.tanggal{
+    font-size: 10px;
+}
+footer img{
+    margin-top: 20px;
+}
+.content{
+    float:left;
+    width: 75%;
+    overflow: auto;
+    padding: 30px;
+}
+footer{
+    float:left;
+    width: 100%;
+}
+#carousel{
+    width: 800px;
+    margin-left: 60px;
+}
+aside{
+    display:flex;
+    float:right;
+    width: 25%;
+    margin-top: 150px;
+    border: 1px solid transparent;
+    background-color: #F4F3FF;
+    padding: 40px;
+    border-radius: 20px;
+}
+    
